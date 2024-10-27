@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style : normal;
+}
+.btn{
+    border-radius: 8px;
+    color: #FFFF;
+    background: #1942c7;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+    
+    
+ }
+ 
+ 
+ .navbar{
+    display: flex;
+    font-size: 20px;
+ }
+ .navbar >ul{
+    display: flex;
+ }
+ .navbar li{
+    list-style: none;
+    padding-right: 10px;
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+ .text-light-gray{
+   color: #727272;
+}
+.banner{
+   display: flex;
+}
+.banner1{
+   margin: 90px;
+}
+.ten-year-exp{
+   border-radius: 8px;
+   background: #FFF;
+   color: #FFF;
+   width: 300px;
+   padding: 40px;
+   text-align: center;
+   position: relative;
+   bottom: 100px;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3)
+
+
+}
+.ten-year-exp h3{
+   color: black;
+   font-size: 4rem;
+   margin: 0;
+}
+.banner{
+   background: #f9f9f9;
+}
+ .choose-content{
+   display: flex;
+   justify-content: space-around;
+ }
+ .choose-content .choose{
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+   text-align: center;
+   padding: 40px 30px ;
+   box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.3) ;
+   border-bottom: #1942c7 10px solid;
+  
+
+   }
+.support{
+   justify-items: center;
+   margin-bottom: 50px;
+}
+.support h2{
+   font-size: 30px;
+   font-weight: 600;
+}
+.choose-stats{
+   font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.choose-title{
+   font-weight: 600;
+   font-size: 1.25rem;
+   margin-top: 5px;
+}
+.choose{
+   width: 160px;
+}
+ .career{
+   color: #1942c7;
+   font-size: 30px;
+ }
+ .explore{
+   font-size: 60px;
+ }
+ .sponsors{
+   text-align: center;
+}
+
+.sponsors-img-container{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 40px;
+   align-items: center;
+   gap: 40px;
+}
+.login{
+   display: flex;
+   justify-content: space-around;
+}
+.log{
+   padding: 50px;
+   justify-items: center;
+   
+}
+.log h3{
+   font-size: 40px;
+}
+
+.log-data{
+   width: 500px;
+   height: 400px;
+    padding: 50px;
+    font-size: 1.2em;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.3) ;
+   justify-items: center;
+   
+    
+}
+.form{
+   margin-top: 80px ;
+}
+.learn{
+   padding-left: 100px;
+   padding-bottom: 50px;
+   width: 50%;
+   margin: 60px;
+   box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.3) ;
+}
+.one{
+   font-size: 2.8rem;
+   color: #7515c3;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   
+}
+.two{
+   font-size: 2.8rem;
+   color: #22c6dc;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.three{
+   font-size: 2.8rem;
+   color: #09c388;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.log-data .btn{
+   width: 300px;
+   height: 60px;
+
+   
+}
+.section-title{
+   font-size: 2.8rem;
+   font-weight: 700;
+   color: #131313;
+}
