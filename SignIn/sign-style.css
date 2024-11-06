@@ -1,0 +1,46 @@
+.country-code {
+    background-color: #dbe7ff;
+    padding: 5px;
+    border-right: 1px solid #cfd8dc;
+    border-radius: 4px 0 0 4px;
+    color: #333;
+}
+.form-content{
+    display: flex;
+}
+.part1{
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.part2{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+}
+.phone-input-container {
+    display: flex;
+    
+    
+    border-radius: 4px;
+    width: fit-content;
+    padding: 15px;
+}
+.phone-input {
+    height: 40px;
+    margin-bottom: 6px;
+    padding: 3px;
+    border-bottom: 1px solid black;
+    width: 400px
+}
+.country-code {
+    background-color: #dbe7ff;
+    padding: 5px;
+    border-right: 1px solid #cfd8dc;
+    border-radius: 4px 0 0 4px;
+    color: #333;
+}

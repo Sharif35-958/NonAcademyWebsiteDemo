@@ -38,12 +38,12 @@
    
    
 }
+button:hover{
+   background-color: #13f4ec;
+}
  #btn{
    margin-top: 20px;
  }
- button:hover{
-   background-color: #13f4ec;
-}
  
  
  .navbar{
@@ -58,6 +58,7 @@
    
     list-style: none;
     padding-right: 10px;
+    
     
  }
  nav{
@@ -217,13 +218,13 @@
 }
 nav>ul li{
   list-style: none;
+  
 }
 a{
    text-decoration: none;
+   
 }
 .log-in{
    color: #FFF;
 }
-.stext{
-   color: #FFF;
-}
+

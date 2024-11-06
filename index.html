@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Non Academy Demo</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="log-style.css" />
+    <link rel="stylesheet" href="sign-style.css" />
   </head>
 
   <body>
     <nav>
       <div class="navbar">
         <img width="250px" src="/img/logo-black.94924912.svg" alt="" />
-        <ul>
-          <li>Home</li>
-          <li>Course</li>
-          <li>Pages</li>
-          <li>NonDegree</li>
-          <li>Contacts</li>
+        <ul class="nav-item">
+          <li>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contacts</a>
+            <a href="#">Services</a>
+          </li>
         </ul>
       </div>
-      <button class="btn">Dashboard</button>
+      <div>
+        <button class="btn-1">
+          <a class="log-in" href="/LoginPageNA/index.html">Login</a>
+        </button>
+        <button class="btn">
+          <a href="/SignIn/index.html"><span class="stext">Sign Up</span></a>
+        </button>
+      </div>
     </nav>
 
     <div class="banner">
@@ -70,41 +80,34 @@
       </div>
     </section>
 
-<section class="login">
+    <section class="login">
+      <div class="learn">
+        <h2 class="one">LEARN</h2>
+        <p class="text-light-gray">
+          Get access to 10+ courses from renowned instructors.
+        </p>
+        <h2 class="two">APPLY</h2>
+        <p class="text-light-gray">Build projects and reach your goals</p>
 
-<div class="learn">
+        <h2 class="three">GROW</h2>
+        <p class="text-light-gray">
+          Upskill yourself with NonAcademy and land your dream job.
+        </p>
+      </div>
 
-  <h2 class="one">LEARN</h2>
-  <p class="text-light-gray">Get access to 10+ courses from renowned instructors.</p>
-  <h2 class="two">APPLY</h2>
-  <p class="text-light-gray">Build projects and reach your goals</p>
-
-  <h2 class="three">GROW</h2>
-  <p class="text-light-gray">Upskill yourself with NonAcademy and land your dream job.</p>
-
-</div>
-
-<div class="log">
-
-
-<div class="log-data">
-  <div class="form">
-    <h3>Let's Get Started</h3>
-    <label for="email">Email</label><br>
-  <input type="Email"><br>
-  <label for="password">Password</label> <br>
-  <input width="300px" type="password"> <br>
-  <button class="btn">Login</button>
-  
-  </div>
-</div>
-</div>
-
-
-
-</section>
-
-
+      <div class="log">
+        <div class="log-data">
+          <div class="form">
+            <h3>Let's Get Started</h3>
+            <label for="email">Email</label><br />
+            <input type="Email" /><br />
+            <label for="password">Password</label> <br />
+            <input width="300px" type="password" /> <br />
+            <button class="btn" id="btn">Login</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="sponsors">
       <h3 class="section-title">Our Sponsors</h3>
